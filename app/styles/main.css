@@ -1,0 +1,57 @@
+body {
+  background: #fafafa;
+  font-family: "Times New Roman", Times, serif;
+  color: #333;
+}
+.createAccount{
+  width: 100%;
+  height:100px;
+  background-color: lightblue;
+  padding: 20px;
+}
+.login{
+  margin: auto;
+  width: 30%;
+  height:130px;
+  background-color: lightgreen;
+  padding: 70px;
+  margin-top: 170px;
+}
+
+.account{
+  /* margin: auto; */
+  width: 45%;
+  height:380px;
+  background-color: lightsalmon;
+  padding: 20px;
+  float: left;
+}
+.token{
+  width:45%;
+  background-color: lightseagreen;
+  height: 380px;
+  padding: 20px;
+  float: right;
+}
+.pwd{
+  width:200px;
+  margin-bottom: 20px;
+}
+
+#toAccount{
+  width:400px;
+  margin-bottom: 10px;
+}
+
+#value{
+  margin-bottom: 10px;
+}
+
+#toTokenAccount{
+  width:400px;
+  margin-bottom:10px;
+}
+
+#tokenValue{
+  margin-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectDapp</title>
+     <!-- Bower -->
+     <script src="/bower_components/jquery/dist/jquery.js"></script>
+     <!-- Endbower --> 
+     <!-- build:js scripts/main.js -->
+     <script src="scripts/main.js"></script>
+     <script src="scripts/utils.js"></script>
+  </head>
+  <body>
+    <form>
+      <label>Password</label>
+      <input type="text" id="password" name="psd"><br>
+      <div>
+          <input type="submit" value="create Account" id="button">
+          <h3 id="account"></h3>
+          <h3 id="privateKey"></h3>
+      </div>    
+      <div>
+          <h1>Transaction Object</h1>
+          <label>From</label>
+          <input type="text" id="from">
+          <br>
+          <label>To </label>
+          <input type="text" id="to">
+          <br>
+          <label>Value (Ether)</label>
+          <input type="text" id="value"><br>
+      </div>
+      
+      <input type="submit" value="Send Transaction" id="sendButton"><br>
+      
+  </form>
+  </body>
+</html>
